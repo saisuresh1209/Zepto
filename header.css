@@ -1,0 +1,119 @@
+.header{
+    position:fixed ;
+    height: 85px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    left: 0;
+    right: 0;
+    top: 0;
+    background-color: rgb(60, 0, 107);
+    z-index: 1000;
+}
+
+p{
+    padding: 0;
+    margin: 0;
+}
+
+.left-section{
+    display: flex;
+    margin-left: 65px;
+    align-items: center;
+}
+
+.divide-symbol{
+    color: rgb(160, 128, 186);
+    font-weight: 200;
+    font-size: 33px;
+    margin-left: 22px;
+    margin-bottom: 5px;
+}
+
+.zepto-img{
+    height: 35px;
+    cursor: pointer;
+}
+
+.location{
+    margin-left: 20px;
+    color: aliceblue;
+    font-family: Roboto,Arial;
+    font-weight: 500;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+.middle-section{
+    margin-left: 50px;
+    
+    display: flex;
+    flex: 1;
+    align-items: center;
+  
+}
+
+.search-bar{
+    flex: 1;
+    height: 39px;
+    padding-left: 50px;
+    font-family: Roboto, Arial ;
+    border-radius: 7px;
+    border: none ;   
+    position: relative;
+}
+
+.search-pic{
+    position: absolute;
+    height: 20px ;
+    z-index: 10;
+    padding-left: 26px;
+    opacity: 0.8;
+    cursor: pointer;
+}
+.search-bar::placeholder{
+        font-family: Roboto, Arial;
+        font-size: 15px;
+        opacity: 0.8;
+}
+
+.right-section{
+    display: flex;
+    width: 310px;
+    align-items: center;
+
+}
+
+.login{
+    color: white;
+    font-family: Roboto,Arial;
+    font-size: 16px;
+    font-weight: 500;
+    padding-left: 20px;
+    cursor: pointer;
+}
+
+.my-cart{
+    display: flex;
+    margin-left: 20px;
+    height: 60px;
+    width: 150px;
+    background-color: rgb(255, 50, 105);
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.mycart{
+    color: white;
+    font-family: Roboto, Arial;
+    font-weight: 200;
+    line-height: 5px;
+}
+
+.shopping-symbol{
+    margin-right: 5px;
+    color: white;
+    font-weight: 600;
+}

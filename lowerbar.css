@@ -1,0 +1,48 @@
+.bar{
+    
+    position: relative;
+    top: 77px;
+    left: 0;
+    width: 1475px;
+    height: 77px;
+    margin-left: -10px;
+}
+p{
+    padding: 0;
+    margin: 0;
+    color: white;
+    font-family: Roboto,Arial;
+    font-weight: 500;
+    padding-top: 10px;
+}
+
+h3{
+    padding: 0;
+    margin: 0;
+    color: white;
+    font-family: Roboto,Arial;
+    padding-left: 65px;
+   
+}
+
+
+.bags-pic{
+    position: absolute;
+    top: 95px;
+    left: 490px;
+    height: 60px;
+}
+
+.celeb{
+    position: absolute;
+    top: 95px;
+    left: 900px;
+    height: 60px;
+}
+
+.tag{
+    position: absolute;
+    left: 600px;
+    top: 95px;
+}
+
